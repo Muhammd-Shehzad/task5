@@ -15,7 +15,7 @@ class Task5 extends StatelessWidget {
       body: Column(
         children: [
           Center(
-            child: Text('Hello, Flus Task 5.'),
+            child: Text('Hello.'),
           ),
           Column(
             children: [
