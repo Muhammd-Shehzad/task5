@@ -26,6 +26,7 @@ class ListViewScreen extends StatelessWidget {
                           color: Colors.white,
                           borderRadius: BorderRadius.circular(20)),
                       child: Row(
+                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
                           Padding(
                             padding: const EdgeInsets.symmetric(
@@ -52,6 +53,19 @@ class ListViewScreen extends StatelessWidget {
                                 Text('Description'),
                               ],
                             ),
+                          ),
+                          Column(
+                            mainAxisAlignment: MainAxisAlignment.center,
+                            children: [
+                              Padding(
+                                padding: const EdgeInsets.all(8.0),
+                                child: CircleAvatar(
+                                  backgroundColor: Colors.green,
+                                  radius: 15,
+                                  child: Text('1'),
+                                ),
+                              ),
+                            ],
                           ),
                         ],
                       ),
