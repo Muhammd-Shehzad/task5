@@ -60,7 +60,7 @@ class ListViewScreen extends StatelessWidget {
                               Padding(
                                 padding: const EdgeInsets.all(8.0),
                                 child: CircleAvatar(
-                                  backgroundColor: Colors.green,
+                                  backgroundColor: Colors.red,
                                   radius: 15,
                                   child: Text('1'),
                                 ),
