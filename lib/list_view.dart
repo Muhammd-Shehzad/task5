@@ -62,7 +62,7 @@ class ListViewScreen extends StatelessWidget {
                                 child: CircleAvatar(
                                   backgroundColor: Colors.red,
                                   radius: 15,
-                                  child: Text('1'),
+                                  child: Text('4'),
                                 ),
                               ),
                             ],
