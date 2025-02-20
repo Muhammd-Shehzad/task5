@@ -30,7 +30,7 @@ class ListViewScreen extends StatelessWidget {
                         children: [
                           Padding(
                             padding: const EdgeInsets.symmetric(
-                                horizontal: 10, vertical: 10),
+                                horizontal: 20, vertical: 20),
                             child: CircleAvatar(
                               backgroundImage: NetworkImage(
                                 'https://picsum.photos/id/1005/200/300',
@@ -44,13 +44,13 @@ class ListViewScreen extends StatelessWidget {
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: [
                                 Text(
-                                  'Name',
+                                  'Names',
                                   style: TextStyle(
                                       color: Colors.black,
                                       fontSize: 20,
                                       fontWeight: FontWeight.bold),
                                 ),
-                                Text('Description'),
+                                Text('Descriptions'),
                               ],
                             ),
                           ),
@@ -62,7 +62,7 @@ class ListViewScreen extends StatelessWidget {
                                 child: CircleAvatar(
                                   backgroundColor: Colors.red,
                                   radius: 15,
-                                  child: Text('4'),
+                                  child: Text('7'),
                                 ),
                               ),
                             ],
